@@ -19,6 +19,7 @@ names (dataSet) = c("Fecha", "Mail", "MiDescripcion", "Hyflex", "Nombre", "Mes",
 #1 El alumno más viejo####
 attach(dataSet)
 min(Year)
+#Año más antiguo
 which.min(Year)
 
 aViejo <- subset(dataSet, Year == min(Year), "Nombre")
@@ -65,3 +66,4 @@ Hf
 sumHf <- sum(dataSet$Hyflex == 1)
 sumHf
 
+# FIN ####
