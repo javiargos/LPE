@@ -1,3 +1,6 @@
+# LOAD PACKAGES AND DATA --------------------------------------------------
+
+
 #EJERCICIO1 LPE####
 #Leer archivo csv generado en clase y reponder preguntas
 
@@ -6,7 +9,6 @@
 dataSet <- read.csv(file.choose(),header = TRUE, sep = ',')
 print(dataSet) #imprime dataset
 length(dataSet) #filas del dataset 
-
 #Damos nombre a las columnas del dataset####
 names (dataSet) = c("Fecha", "Mail", "MiDescripcion", "Hyflex", "Nombre", "Mes", "Year",
                     "Apellido", "Descripcion_compañero", "Repetidor", "Expediente", "UsuarioGit", "NivelProgra",
